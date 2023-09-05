@@ -9,7 +9,7 @@ An App searching repositories from github.
 
 # Tech Stack
 ## Android Jetpack
-[MDC-Android Material Design 3](https://m3.material.io/develop/android/mdc-android)
+* [MDC-Android Material Design 3](https://m3.material.io/develop/android/mdc-android)
 
 [Databinding](https://developer.android.com/jetpack/androidx/releases/databinding?hl=zh-tw)
 
