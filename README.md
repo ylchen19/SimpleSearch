@@ -9,5 +9,5 @@ An App searching repositories from github.
 
 
 # Tech Stack
-[MDC-Android Material Design 3][1]
-[1]: https://m3.material.io/develop/android/mdc-android
+[MDC-Android Material Design 3]: https://m3.material.io/develop/android/mdc-android
+
