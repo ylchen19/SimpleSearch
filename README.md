@@ -15,3 +15,9 @@ An App searching repositories from github.
 *  [Paging 3](https://developer.android.com/jetpack/androidx/releases/paging?hl=zh-tw)
 *  [Room](https://developer.android.com/jetpack/androidx/releases/room?hl=zh-tw)
 *  [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel?hl=zh-tw)
+## Internet
+*  [Retrofit2](https://github.com/square/retrofit)
+## Dependency Injection
+*  [koin](https://github.com/InsertKoinIO/koin)
+## Image Loading
+*  [coil](https://github.com/coil-kt/coil)
