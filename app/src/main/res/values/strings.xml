@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleSearch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchbar_hint">SearchBar_Hint</string>
+    <string name="title" />
+    <string name="secondary_text" />
+    <string name="supporting_text" />
+    <string name="action_1" />
+    <string name="action_2" />
+    <string name="content_description_media" />
+    <string name="search">Search</string>
+    <string name="retry">retry</string>
+    <string name="language">Language: %s</string>
+    <string name="loading">Loading</string>
+    <string name="unknown">\?</string>
+    <string name="start_search_something_cool">Start search something cool :)</string>
+    <string name="pull_down_to_retry">pull down to retry</string>
+</resources>

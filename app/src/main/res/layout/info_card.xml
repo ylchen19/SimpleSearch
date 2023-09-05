@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="repo"
+            type="com.example.simplesearch.data.Item" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="?attr/materialCardViewFilledStyle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Media -->
+                <ImageView
+                    android:id="@+id/ownerAvatar"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    tools:src="@drawable/ic_launcher_foreground"
+                    app:imageUrl="@{repo.owner.avatar_url}"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/repo_name_size"
+                        android:layout_height="wrap_content"
+                        android:text="@{repo.full_name}"
+                        android:textAppearance="?attr/textAppearanceTitleMedium"
+                        android:textColor="?android:attr/textColorPrimary"
+                        tools:text="Title"
+                        tools:ignore="Suspicious0dp" />
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_marginTop="8dp"
+                        android:text="@{repo.description}"
+                        android:textSize="@dimen/repo_description_size"
+                        android:textAppearance="?attr/textAppearanceBodyMedium"
+                        android:textColor="?android:attr/textColorSecondary"
+                        tools:text="descriptions"
+                        tools:ignore="Suspicious0dp,UnusedAttribute" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/repo_language"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:paddingTop="4sp"
+                            android:text="@{repo.language}"
+                            android:textAppearance="?attr/textAppearanceBodySmall"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="@dimen/repo_description_size"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlCompat,Suspicious0dp"
+                            tools:text="language" />
+
+                        <TextView
+                            android:id="@+id/stars"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@{String.valueOf(repo.stargazers_count)}"
+                            android:textAppearance="?attr/textAppearanceBodySmall"
+                            android:textColor="?android:attr/textColorSecondary"
+                            app:drawableStartCompat="@drawable/outline_grade_24"
+                            app:layout_editor_absoluteX="170dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/repo_language"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="30" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
