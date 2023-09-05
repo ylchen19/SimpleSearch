@@ -1,5 +1,5 @@
 # SimpleSearch
-An App searching repositories from github.
+An App searching repositories from github. Using MVVM app architecture.
 # Demo
 <div style="width:960px; margin:0 auto;">
 <img src="https://github.com/ylchen19/SimpleSearch/blob/master/homePage.png" width=30% height=30%>
