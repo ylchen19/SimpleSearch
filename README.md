@@ -9,12 +9,4 @@ An App searching repositories from github.
 
 
 # Tech Stack
-[MDC-Android Material Design 3]: https://m3.material.io/develop/android/mdc-android
-
-[Google][1]
-[Yahoo][2]
-[MSN][3]
-
-  [1]: http://google.com/        "游標顯示"
-  [2]: http://search.yahoo.com/  "游標顯示"
-  [3]: http://search.msn.com/    "游標顯示"
+[MDC-Android Material Design 3](https://m3.material.io/develop/android/mdc-android)
