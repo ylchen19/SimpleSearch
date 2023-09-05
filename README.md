@@ -11,7 +11,7 @@ An App searching repositories from github. Using MVVM app architecture and Andro
 ## Android Jetpack
 *  [MDC-Android Material Design 3](https://m3.material.io/develop/android/mdc-android)
 *  [Databinding](https://developer.android.com/jetpack/androidx/releases/databinding?hl=zh-tw)
-*  [Nacigation](https://developer.android.com/jetpack/androidx/releases/navigation?hl=zh-tw)
+*  [Navigation](https://developer.android.com/jetpack/androidx/releases/navigation?hl=zh-tw)
 *  [Paging 3](https://developer.android.com/jetpack/androidx/releases/paging?hl=zh-tw)
 *  [Room](https://developer.android.com/jetpack/androidx/releases/room?hl=zh-tw)
 *  [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel?hl=zh-tw)
