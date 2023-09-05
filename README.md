@@ -1,12 +1,9 @@
 # SimpleSearch
 An App searching repositories from github.
 
-<div align="center">
-	<img src="https://github.com/ylchen19/SimpleSearch/blob/master/homePage.png" width="500">
-</div>
 # Home Page
-![image](https://github.com/ylchen19/SimpleSearch/blob/master/homePage.png)
+![image](https://github.com/ylchen19/SimpleSearch/blob/master/homePage.png =300x400)
 # Search
-![image](https://github.com/ylchen19/SimpleSearch/blob/master/search.png)
+![image](https://github.com/ylchen19/SimpleSearch/blob/master/search.png =300x400)
 # Repo Detail
-![image](https://github.com/ylchen19/SimpleSearch/blob/master/getDetail.png)
+![image](https://github.com/ylchen19/SimpleSearch/blob/master/getDetail.png =300x400)
