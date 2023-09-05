@@ -18,12 +18,12 @@ An App searching repositories from github. Using MVVM app architecture and Andro
 ## Internet
 *  [Retrofit2](https://github.com/square/retrofit)
 ## Dependency Injection
-*  [koin](https://github.com/InsertKoinIO/koin)
+*  [Koin](https://github.com/InsertKoinIO/koin)
 ## Image Loading
-*  [coil](https://github.com/coil-kt/coil)
+*  [Coil](https://github.com/coil-kt/coil)
 ## Others
 *  [Kotlin Coroutine](https://developer.android.com/kotlin/coroutines?hl=zh-tw)
-*  [kotlin Flow](https://developer.android.com/kotlin/flow?hl=zh-tw)
+*  [Kotlin Flow](https://developer.android.com/kotlin/flow?hl=zh-tw)
 
 # Search API Source
 *  [GitHub Search](https://docs.github.com/zh/rest/search/search?apiVersion=2022-11-28)
