@@ -1,5 +1,5 @@
 # SimpleSearch
-An App searching repositories from github. Using MVVM app architecture and Android Jetpack.
+An App searching repositories from github. Using MVVM app architecture and Android Jetpack.  
 Migrating to Jetpack Compose.
 # Demo
 <div style="width:960px; margin:0 auto;">
